@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "tpl": "nodemon ./tpl-server",
-    "admin": "nodemon ./admin"
+    "web": "nodemon ./web-server"
   },
   "dependencies": {
+    "bootstrap": "^4.0.0-beta",
     "cors": "^2.8.4",
     "express": "~4.15.2",
     "handlebars": "^4.0.10",

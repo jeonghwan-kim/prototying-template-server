@@ -15,7 +15,7 @@ app.use('/main', (req, res) => {
     if (e) throw e;
 
     const vm = {
-      name: 'baeminfresh'
+      name: '6pack'
     }
     const tpl = hbs.compile(body)
     const html = tpl(vm)
@@ -25,6 +25,6 @@ app.use('/main', (req, res) => {
   })
 })
 
-app.use('*', (req, res) => res.send('this is admin'))
+app.use('*', (req, res) => res.send('this is web'))
 
 app.listen(PORT, ()=> console.log(`admin is running on ${PORT}`))
