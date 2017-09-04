@@ -1,0 +1,17 @@
+{
+  "name": "fresh-tpl",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "tpl": "nodemon ./tpl-server",
+    "admin": "nodemon ./admin"
+  },
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "~4.15.2",
+    "handlebars": "^4.0.10",
+    "morgan": "~1.8.1",
+    "nodemon": "^1.11.0",
+    "request": "^2.81.0"
+  }
+}
